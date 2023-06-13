@@ -1,0 +1,97 @@
+@font-face{
+    font-family:"Great vibes";
+    src: url('../FUENTES/Great_Vibes/GreatVibes-Regular.ttf');
+}
+@font-face{
+    font-family:"Signika";
+    src: url('../FUENTES/Signika/Signika-VariableFont_wght.ttf');
+}
+th{
+    font-family:"Great vibes";
+    text-align: justify;
+   
+    background-color: rgb(173, 237, 216);
+}
+
+td{
+    background-color: rgb(149, 232, 204);
+}
+body{
+    background-color: rgb(236, 217, 193);
+}
+h1{
+    background-color: blanchedalmond;
+    color: rgb(140, 140, 237);
+    font-family:"Signika";
+    text-align: justify;
+    text-align: center;
+}
+
+p{
+    font-family:"Signika";
+    text-align: justify;
+    text-align: center;
+}
+
+.ani1{
+    transition-property: width;
+    transition-duration: 2s;
+}
+.ani1:hover {
+    width: 150px;
+    height: 150px;
+  }
+
+
+.ani2{
+    width: 100px;
+    height: 100px;
+    background: red;
+    position: relative;
+    animation-name: animacion2;
+    animation-duration: 4s;
+    animation-delay: 2s;
+}
+
+@keyframes animacion2 {
+    25%  {left:50px; top:0px;}
+    50%  {left: 50px; }
+    75%  {left:0px;;}
+ }
+
+.ani3{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(149, 232, 204);
+    animation-name: animacion3;
+    animation-duration: 4s;
+}
+
+@keyframes animacion3 {
+    from {background-color:  rgb(103, 233, 124);;}
+    to {background-color: rgb(246, 246, 151);}
+}
+
+.ani4{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    animation-name: animacion4;
+    animation-duration: 4s;
+    animation-delay: 2s;
+}
+@keyframes animacion4 {
+    0%   {left:0px; top:0px;}
+    25%  {left:200px; top:0px;}
+    50%  {left:200px; top:200px;}
+    75%  {left:0px; top:200px;}
+    100% { left:0px; top:0px;}
+ }
+.ani5:hover{
+    width: 200px;
+    height: 300px;
+}
+.ani6{
+    transform: rotate(20deg);
+}
+
